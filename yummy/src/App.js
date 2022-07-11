@@ -6,7 +6,7 @@ import Vegan from "./components/Vegan";
 function App() {
   return (
     <div className="App">
-      <h1>Yummy</h1>
+      <h1 className="logo">Yummy</h1>
       <Popular />
       <Vegan />
     </div>
