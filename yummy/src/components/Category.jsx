@@ -10,9 +10,9 @@ function Category() {
                 <GiPizzaSlice />
                 <h4>Italian</h4>
             </NavLink>
-            <NavLink to={`/cuisine/Japanesse`}>
+            <NavLink to={`/cuisine/Korean`}>
                 <MdRamenDining />
-                <h4>Japanesse</h4>
+                <h4>Korean</h4>
             </NavLink>
             <NavLink to={`/cuisine/American`}>
                 <GiHamburger />
@@ -32,11 +32,11 @@ const List = styled.div`
     margin: 2rem 0rem;
 `;
 
-const ListItem = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0rem 1rem;
-`;
+// const ListItem = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin: 0rem 1rem;
+// `;
 
 export default Category;

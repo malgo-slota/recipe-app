@@ -10,7 +10,7 @@ function App() {
       <h1 className="logo">Yummy</h1>
       <BrowserRouter>
         <Category />
-          <Pages />
+        <Pages />
       </BrowserRouter>
       
     </div>
