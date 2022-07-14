@@ -55,7 +55,6 @@ const ListItem = styled(NavLink)`
         font-size: 1.5rem;
     }
     &.active {
-        /* background: #4b4b4b; */
         border: 8px solid #4b4b4b; 
         transition: 0.3s ease-out;
     }
